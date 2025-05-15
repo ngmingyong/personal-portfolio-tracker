@@ -1,0 +1,23 @@
+.details-card-content {
+  max-height: 550px;
+  transition: all 0.15s ease-out;
+  overflow: auto;
+}
+
+.details-card-content:not(.expanded) {
+  max-height: 0;
+}
+
+.details-item {
+  padding: 5px 0px;
+  outline: 1px solid #3a3a3a;
+}
+
+.details-info-row {
+  background-color: #212121;
+  padding: 1px 50px;
+}
+
+.details-item-header {
+  line-height: 0px;
+}

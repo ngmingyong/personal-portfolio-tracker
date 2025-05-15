@@ -1,0 +1,8 @@
+
+.delete-button {
+  font-size: 30px;
+}
+
+.delete-button:hover, .delete-button:focus, .delete-button:focus-visible, .delete-button:active {
+  color: #f58787;
+}

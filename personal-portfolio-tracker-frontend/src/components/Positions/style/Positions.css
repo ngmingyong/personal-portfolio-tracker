@@ -1,0 +1,62 @@
+.position-card {
+  margin: 15px 0px;
+  background-color: #3a3a3a;
+  box-shadow: 0px 2px 10px rgba(0, 0, 0, 0.5);
+  border-radius: 10px;
+  overflow: hidden;
+}
+
+.details-card {
+  margin: 10px 200px;
+  background-color: #212121;
+  box-shadow: 0px 2px 10px rgba(0, 0, 0, 0.5);
+  border-radius: 10px;
+  overflow: hidden;
+}
+
+.card-header {
+  padding: 5px 20px;
+  cursor: pointer;
+  background-color: #3a3a3a;
+  display: flex;
+  justify-content: space-between;
+}
+
+.header-text {
+  font-size: 25px;
+  line-height: 0px;
+  color: #e4b82a;
+}
+
+.closed-position {
+  text-decoration: line-through;
+}
+
+.position-card-content {
+  max-height: 600px;
+  transition: all 0.15s ease-out;
+  overflow: auto;
+}
+
+.position-card-content:not(.expanded) {
+  max-height: 0;
+}
+
+.info-row {
+  font-size: 20px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.position-info-row {
+  background-color: #3a3a3a;
+  padding: 1px 250px;
+}
+
+.positive-value {
+  color: #00ff00;
+}
+
+.negative-value {
+  color: #ff5050;
+}
