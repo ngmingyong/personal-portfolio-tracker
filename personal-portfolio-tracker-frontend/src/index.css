@@ -1,0 +1,17 @@
+body {
+  min-width: 320px;
+  min-height: 320px;
+  font-family: Helvetica, Arial, sans-serif;
+  line-height: 25px;
+  font-weight: 500;
+  color: #f0f0f0;
+  overflow-x: auto;
+  overflow-y: auto;
+  white-space: nowrap;
+  text-align: center;
+}
+
+#root {  
+  display: flex;
+  flex-direction: column;
+}

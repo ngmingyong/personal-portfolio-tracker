@@ -1,0 +1,100 @@
+.dialog {
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 750px;
+  max-width: 90%;
+  background-color: #3a3a3a;
+  border-radius: 10px;
+  box-shadow: 0 2px 10px rgba(0, 0, 0, 0.5);
+  z-index: 1;
+  padding: 20px;
+}
+
+.input-field-group {
+  display: grid;
+  grid-template-columns: 1fr 1.5fr;
+  gap: 15px;
+  align-items: center;
+  margin-bottom: 16px;
+}
+
+label {
+  text-align: right;
+  padding-right: 5px;
+}
+
+input {
+  width: 80%;
+  padding: 8px 12px;
+  border-radius: 10px;
+  color: #000000;
+  font-size: 15px;
+}
+
+input[type="checkbox"] {
+  width: 20px;
+  height: 20px;
+  cursor: pointer;
+  accent-color: #e4b82a;
+}
+
+input[type="radio"] {
+  width: 20px;
+  height: 20px;
+  margin: 0;
+  cursor: pointer;
+  accent-color: #e4b82a;
+}
+
+.radio-group {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+}
+
+.radio-group label {
+  cursor: pointer;
+}
+
+.radio-option {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.dialog-button, .dialog-button:hover, .dialog-button:focus, .dialog-button:focus-visible {
+  color: #f0f0f0;
+  border: 1px solid #f0f0f0;
+  border-radius: 5px;
+  padding: 10px 20px;
+  background-color: transparent;
+}
+
+.dialog-button:active {
+  color: #3a3a3a;
+  border-color: #3a3a3a;
+  background-color: #f0f0f0;
+}
+
+.dialog-submit-button, .dialog-submit-button:hover, .dialog-submit-button:focus, .dialog-submit-button:focus-visible {
+  color: #e4b82a;
+  border-color: #e4b82a;
+}
+
+.dialog-submit-button:active {
+  color: #3a3a3a;
+  border-color: #3a3a3a;
+  background-color: #e4b82a;
+}
+
+.dialog-delete-button, .dialog-delete-button:hover, .dialog-delete-button:focus, .dialog-delete-button:focus-visible {
+  color: #f58787;
+  border-color: #f58787;
+}
+
+.dialog-delete-button:active {
+  color: #3a3a3a;
+  border-color: #3a3a3a;
+  background-color: #f58787;
+}

@@ -1,0 +1,43 @@
+.frame {
+  position: fixed;
+  top: 0%;
+  left: 0%;
+  right: 0%;
+  bottom: 0%;
+  background-color: #000000;
+  overflow: auto;
+  padding: 20px;
+  min-width: fit-content;
+}
+
+.title-bar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+  min-width: fit-content;
+}
+
+.title-text {
+  font-size: 35px;
+  line-height: 0px;
+  color: #e4b82a;
+}
+
+button {
+  border: 0px none transparent;
+  font-size: 20px;
+  color: #f0f0f0;
+  background-color: transparent;
+  cursor: pointer;
+}
+
+button:hover, button:focus, button:focus-visible, button:active {
+  color: #e4b82a
+}
+
+.button-group {
+  display: flex;
+  gap: 10px;
+  justify-content: center;
+}
